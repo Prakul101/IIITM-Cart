@@ -1,0 +1,92 @@
+body {
+  background: #343a40;
+  min-height: 100vh;
+}
+.nav-link:hover,
+.nav-link:focus {
+  border-color: transparent !important;
+}
+.nav-logo{
+  float: left !important;
+  margin-top: -15px !important;
+}
+.center-error {
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+  right: 20vw;
+}
+.badge {
+  font-size: 1em;
+  font-weight: 400;
+}
+.card-btn {
+  width: calc(50% - 2em);
+  margin: 0 1em;
+}
+.btn-light:hover {
+  background-color: #dfe0e1;
+  border-color: #dfe0e1;
+}
+table .btn-success {
+  background-color: var(--bs-success) !important;
+  border-color: var(--bs-success) !important;
+}
+table .btn-success:hover {
+  background-color: #157347 !important;
+  border-color: #146c43 !important;
+}
+table .btn-danger {
+  background-color: var(--bs-danger) !important;
+  border-color: var(--bs-danger) !important;
+}
+table .btn-danger:hover {
+  background-color: #bb2d3b !important;
+  border-color: #b02a37 !important;
+}
+body.modal-open > #root {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.widget-title span {
+  background: #839fad none repeat scroll 0 0;
+  display: block;
+  height: 1px;
+  margin-top: 10px;
+  position: relative;
+  width: 20%;
+}
+.widget-title span::after {
+  background: inherit;
+  content: "";
+  height: inherit;
+  position: absolute;
+  top: -5px;
+  width: 50%;
+}
+.footer-li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  margin-left: 7px;
+}
+.footer-li a:hover {
+  color: #ccc;
+}
+.social img {
+  height: 1.5rem;
+}
+td img, .cart-img {
+  min-height: 120px;
+  max-height: 25vh;
+  width: 100%;
+  object-fit: cover;
+}
+.home-img {
+  min-height: 150px;
+  max-height: 30vh;
+  object-fit: scale-down;
+}
